@@ -24,8 +24,8 @@ def remove_element_from_start_of_array(array)
   array.shift
 end
 
+index_number = 1
 def retrieve_element_from_index(array, index_number)
-  index_number = 1
   p array[index_number]
 end
 
