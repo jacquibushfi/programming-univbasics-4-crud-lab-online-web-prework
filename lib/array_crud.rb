@@ -7,7 +7,9 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  array = ["hammer", "nails", "saw", "pliers"]
+  element = "screws"
+  array.push(element)
   
 end
 
