@@ -15,7 +15,7 @@ element = "nuts"
 def add_element_to_start_of_array(array, element)
   array.unshift(element)
 end
-
+array = ["hammer", "nails", "saw", "pliers"]
 def remove_elemenlearnt_from_end_of_array(array)
   arrays = array.pop 
 end
