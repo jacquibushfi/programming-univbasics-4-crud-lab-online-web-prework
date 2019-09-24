@@ -11,9 +11,9 @@ element = "screws"
 def add_element_to_end_of_array(array, element)
   array.push(element)
 end
-
+element = "nuts"
 def add_element_to_start_of_array(array, element)
-  
+  array.unshift(element)
 end
 
 def remove_elemenlearnt_from_end_of_array(array)
